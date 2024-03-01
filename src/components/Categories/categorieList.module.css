@@ -1,0 +1,23 @@
+.separator {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.categorieListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.textCenter {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .categorieListContainer {
+    display: flex;
+  }
+}

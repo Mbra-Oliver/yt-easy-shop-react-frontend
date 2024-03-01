@@ -1,0 +1,77 @@
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.5s ease-in-out;
+}
+
+.productItem:hover {
+  transition: 0.5s ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.productItemLeft {
+  display: flex;
+  gap: 1rem;
+}
+
+.image {
+  background-image: url("https://i.ebayimg.com/images/g/XcoAAOSwtgFkGDa9/s-l1600.jpg");
+  width: 200px;
+  height: 180px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.leftData {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tag {
+  background-color: blue;
+  text-align: center;
+  width: 140px;
+  padding: 0.1rem;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+.productName {
+  font-size: 25px;
+}
+
+.commentCount {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.productItemRight {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sellingPrice {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font-size: 18px;
+}
+
+.normalPrice {
+  font-size: 12px;
+}
+
+.button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #005b96;
+  color: #fff;
+}
